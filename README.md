@@ -67,7 +67,7 @@ The `random_sample_save(checkpoint, num_batches=3)` function call within `predic
 
 6. To compute the metrics for evaluating the latent space (AvgLen, UnigramKL, Entropy) as proposed in the paper, run `evaluate_latent_space.py` specifying reference sentence set path (i.e., training corpus) and generated sentence samples path (~100k samples is recommended). For example:
 ```
-python evaluate_latent_space.py -ref='probabilistic_nlg/snli/data/snli_sentences_all.txt' -gen='probabilistic_nlg/snli/wae-det/samples/sample.txt'
+python evaluate_latent_space.py -ref='snli/data/snli_sentences_all.txt' -gen='snli/wae-det/samples/sample.txt'
 ```
 ## Citation
 If you found this code useful in your research, please cite:
