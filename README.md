@@ -1,11 +1,11 @@
 
-# Probabilistic Natural Language Generation with Wasserstein Autoencoders
+# Stochastic Wasserstein Autoencoder for Probabilistic Sentence Generation
 
 ![](https://img.shields.io/badge/python-3.6-brightgreen.svg) ![](https://img.shields.io/badge/tensorflow-1.3.0-orange.svg)
 
 This is the official codebase for the following paper, implemented in tensorflow:
 
-Hareesh Bahuleyan, Lili Mou, Hao Zhou, Olga Vechtomova. **Probabilistic Natural Language Generation with Wasserstein Autoencoders.** NAACL 2019. https://arxiv.org/pdf/1806.08462.pdf
+Hareesh Bahuleyan, Lili Mou, Hao Zhou, Olga Vechtomova. **Stochastic Wasserstein Autoencoder for Probabilistic Sentence Generation.** NAACL 2019. https://arxiv.org/pdf/1806.08462.pdf
 
 ## Overview
 This package contains the code for two tasks
@@ -73,7 +73,7 @@ python evaluate_latent_space.py -ref='snli/data/snli_sentences_all.txt' -gen='sn
 If you found this code useful in your research, please cite:
 ```
 @inproceedings{probabilisticNLG2019,
-  title={Probabilistic Natural Language Generation with Wasserstein Autoencoders},
+  title={Stochastic Wasserstein Autoencoder for Probabilistic Sentence Generation},
   author={Bahuleyan, Hareesh and Mou, Lili and Zhou, Hao and Vechtomova, Olga},
   booktitle={Proceedings of the Annual Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)},
   year={2019}
