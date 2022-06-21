@@ -1,6 +1,6 @@
 # conda create --name nlg python=3.6.1
 tqdm==4.19.1
-numpy==1.16.0
+numpy==1.22.0
 pandas==0.22.0
 sklearn
 gensim==3.7.0
